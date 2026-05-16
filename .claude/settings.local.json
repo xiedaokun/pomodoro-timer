@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm -v)",
       "Bash(npm install *)",
-      "Bash(npx electron *)"
+      "Bash(npx electron *)",
+      "Bash(gh pr *)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe pr *)",
+      "Bash(git *)"
     ]
   }
 }
